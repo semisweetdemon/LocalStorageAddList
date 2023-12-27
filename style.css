@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Montserrat';
+	background: #95b9c9;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* #region */
+
+#header {
+	background: white;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+}
+
+/* .header__logo {
+} */
+.header__nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 30px;
+}
+
+.header__nav a {
+	color: #000;
+	font-size: 24px;
+	font-weight: 500;
+	transition: 0.5s;
+}
+
+.header__nav a:hover {
+	color: #bd1d1d;
+}
+
+/* #endregion */
+
+/* #region */
+
+#hero {
+	height: 700px;
+	padding: 30px 0;
+}
+
+.hero {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 100px;
+}
+
+.hero__title {
+	margin-top: 20px;
+	color: #33332d;
+	font-family: Montserrat;
+	font-size: 32px;
+	font-weight: 500;
+	letter-spacing: 3.2px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 50px;
+}
+
+form input {
+	width: 649px;
+	height: 67px;
+	padding: 10px 30px;
+	border-radius: 10px;
+	font-size: 24px;
+	border: none;
+	outline: none;
+}
+
+form button {
+	width: 254.1px;
+	height: 60px;
+	border-radius: 10px;
+	background: #ddaa27;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-size: 36px;
+	font-weight: 500;
+	letter-spacing: 1.08px;
+	text-align: center;
+}
+
+form input:focus {
+	outline: 1px solid black;
+}
+
+/* .image {
+}
+.name {
+}
+.price {
+} */
+
+/* #endregion */
